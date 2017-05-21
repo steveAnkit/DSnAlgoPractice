@@ -10,6 +10,7 @@ public class SubArraySum {
       
 	}
 	
+	//Main function
 	public static void getSubArray(int[] array , int sum, int n){
 		
 		int currentSum = array[0];
