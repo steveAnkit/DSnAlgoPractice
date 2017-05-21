@@ -14,7 +14,7 @@ public class KthNonRepeatingElement {
 	
 	
 	public static String getNonRepeatingElement(String set, int position){
-		Map<Character, Integer> map = new HashMap<>();
+		/*Map<Character, Integer> map = new HashMap<>();
 		for (Character ch : set.toCharArray()) {
 			if(map.get(ch) == null)
 				map.put(ch, 1);
@@ -31,7 +31,7 @@ public class KthNonRepeatingElement {
 			}
 				
 		}
-		
+		*/
 		return null;
 	}
 
