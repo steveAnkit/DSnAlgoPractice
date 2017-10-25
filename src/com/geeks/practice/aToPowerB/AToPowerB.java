@@ -13,10 +13,13 @@ public class AToPowerB {
 		
 	}
 	
+
+		
 	public static int printPower(int a, int b, int count){
 
-		if(count == b)
+		if(count == b){
 			return a;
+			}
 		else{
 			++count;
 			int sum = a *  printPower(a, b, count);
